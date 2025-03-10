@@ -1,9 +1,8 @@
 import React from 'react';
-
-function Hero() {
+function Navbar() {
     return ( <h1>
-        Hero
+        Navbar
     </h1> );
 }
 
-export default Hero;
+export default Navbar;
