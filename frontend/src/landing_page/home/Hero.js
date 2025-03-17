@@ -1,7 +1,11 @@
 import React from 'react';
 function Hero() {
     return ( 
-        <h1>Hero <i class="fa fa-cube" aria-hidden="true"></i></h1>
+        <div className='container'>
+            <div className='row'>
+                <img src='media/images/homeHero.png' alt='Hero Image' />
+            </div>
+        </div>
         
      );
 }
