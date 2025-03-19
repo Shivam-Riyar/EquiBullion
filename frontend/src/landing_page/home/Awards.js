@@ -38,7 +38,7 @@ function Awards() {
                             </ul>
                         </div>
                     </div>
-                    
+                    <img src='media/images/pressLogos.png'></img>
                 </div>
             </div>
         </div>
