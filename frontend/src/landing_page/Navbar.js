@@ -1,7 +1,7 @@
 import React from 'react';
 function Navbar() {
     return ( 
-            <nav class="navbar navbar-expand-lg bg-body-tertiary " style={{backgroundColor:"#FFF"}}>
+            <nav class="navbar navbar-expand-lg border-bottom bg-body-tertiary " style={{backgroundColor:"#FFF"}}>
 
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
