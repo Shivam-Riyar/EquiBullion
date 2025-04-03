@@ -12,7 +12,6 @@ import Footer from '../Footer';
 function Homepage() {
     return ( 
         <>
-            <Navbar />
             <Hero />
             <Awards />
             <Stats />
@@ -20,7 +19,6 @@ function Homepage() {
             <Education />
             <OpenAccount />
             
-            <Footer />
         </>
      );
 }
