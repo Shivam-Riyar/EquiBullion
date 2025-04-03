@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav
@@ -6,13 +7,13 @@ function Navbar() {
       style={{ backgroundColor: "#FFF" }}
     >
       <div class="container p2">
-        <a class="navbar-brand" href="#">
+        <Link class="navbar-brand" to="/">
           <img
             src="media/images/logo.svg"
             style={{ width: "25%" }}
             alt="Logo"
           ></img>
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -29,29 +30,29 @@ function Navbar() {
           <form class="d-flex" role="search">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+              <Link class="nav-link active" aria-current="page" To="/signup">
                 Signup
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+            <Link class="nav-link active" aria-current="page" To="/about">
                 About
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Product
-              </a>
+            <Link class="nav-link active" aria-current="page" To="/products">
+                product
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+            <Link class="nav-link active" aria-current="page" To="/pricing">
                 Pricing
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+            <Link class="nav-link active" aria-current="page" To="/support">
                 Support
-              </a>
+              </Link>
             </li>
           </ul>
           </form>
