@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import Signup from "./signup/Signup";
 function Navbar() {
   return (
@@ -31,12 +31,12 @@ function Navbar() {
           <form class="d-flex" role="search">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <Link class="nav-link active" aria-current="page" To="/signup">
+              <Link class="nav-link active" aria-current="page" to="/signup">
                 Signup
               </Link>
             </li>
             <li class="nav-item">
-            <Link class="nav-link active" aria-current="page" To="/about">
+            <Link class="nav-link active" aria-current="page" to="/about">
                 About
               </Link>
             </li>
@@ -46,12 +46,12 @@ function Navbar() {
               </Link>
             </li>
             <li class="nav-item">
-            <Link class="nav-link active" aria-current="page" To="/pricing">
+            <Link class="nav-link active" aria-current="page" to="/pricing">
                 Pricing
               </Link>
             </li>
             <li class="nav-item">
-            <Link class="nav-link active" aria-current="page" To="/support">
+            <Link class="nav-link active" aria-current="page" to="/support">
                 Support
               </Link>
             </li>
